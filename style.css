@@ -11,13 +11,12 @@ body{
 nav{
     background-color: yellow;
     text-align: center;
-    height: 9vh;
+    height: 10vh;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 font-style: italic;
 }
 .main{
-    width: 20vw;
-    height: 30vh;
+    width: 29vw;
     margin:10px auto;
     height: 80vh;
 
@@ -51,16 +50,13 @@ footer h2{
 
 @media only screen and (max-width: 600px) {
     .main{
+        margin-top: 50px;
         width: 90%;
-
+        height: 69vh;
     }
-    h1{
-        margin-top: 20px;
-        font-size: 5rem;
-    }
-    h2{
+  nav h2{
         text-align: center;
-        margin-bottom: 5px;
+        padding-top: 15px;
     }
     p{
         margin: 5px;
